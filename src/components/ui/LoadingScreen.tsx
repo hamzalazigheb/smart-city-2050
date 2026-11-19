@@ -23,6 +23,10 @@ export function LoadingScreen({ onComplete }: { onComplete: () => void }) {
       </div>
       <p className="mt-4 text-xs tracking-widest"
         style={{ color: 'rgba(143,187,145,0.55)' }}>LOADING CITY SYSTEMS…</p>
+      <div className="mt-6 text-center">
+        <p className="text-xs tracking-widest mb-1" style={{ color: 'rgba(143,187,145,0.4)' }}>PRÉSENTÉE PAR</p>
+        <p className="text-sm font-semibold tracking-wide" style={{ color: 'rgba(181,214,183,0.75)' }}>Meriem Lazigheb &nbsp;·&nbsp; Malak Ghoul</p>
+      </div>
     </div>
   );
 }

@@ -29,6 +29,12 @@ export function CinematicIntro({ onComplete }: Props) {
         <div ref={title1} className="font-display font-black mb-2" style={{ fontSize: 'clamp(1rem, 5vw, 1.5rem)', letterSpacing: '0.5em', color: 'rgba(143,187,145,0.75)' }}>WELCOME TO</div>
         <div ref={title2} className="font-display font-black text-glow" style={{ fontSize: 'clamp(3rem, 12vw, 8rem)', letterSpacing: '0.1em', color: '#ffffff', lineHeight: 1 }}>SMART CITY<br /><span style={{ color: '#8fbb91' }}>2050</span></div>
         <div ref={subtitle} className="mt-6 font-body" style={{ fontSize: 'clamp(0.9rem, 2vw, 1.2rem)', color: 'rgba(220,240,220,0.65)', maxWidth: 500, margin: '1.5rem auto 0' }}>Designing the City of the Future</div>
+        <div className="mt-8 flex items-center justify-center gap-6" style={{ opacity: 0.7 }}>
+          <div className="text-center">
+            <div style={{ fontSize: 'clamp(0.65rem, 1.5vw, 0.8rem)', letterSpacing: '0.2em', color: 'rgba(143,187,145,0.55)', marginBottom: 4 }}>PRÉSENTÉE PAR</div>
+            <div style={{ fontSize: 'clamp(0.85rem, 2vw, 1rem)', color: '#b5d6b7', fontWeight: 600, letterSpacing: '0.08em' }}>Meriem Lazigheb &nbsp;·&nbsp; Malak Ghoul</div>
+          </div>
+        </div>
       </div>
       <button onClick={onComplete} className="absolute bottom-8 right-8 text-xs tracking-widest px-4 py-2 rounded-full transition-all hover:opacity-100" style={{ opacity: 0.5, background: 'rgba(143,187,145,0.08)', border: '1px solid rgba(143,187,145,0.22)', color: '#8fbb91', cursor: 'pointer' }}>SKIP INTRO →</button>
       <style>{`
